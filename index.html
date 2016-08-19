@@ -14,15 +14,33 @@
       <div class="jumbotron">
         <h1>Ping-Pong</h1>
       </div>
-      <div>
-        <form>
-          <label for="ping-pong">Input a Number You'd Like To Count To</label>
-          <input class="form-control" type="text" id="ping-pong">
-          <button type="submit" name="button" class="btn btn-danger">Submit</button>
-        </form>
-        <ul class="output">
+      <div class="row">
+        <div class="col-sm-4" id="about">
+          <h3>About Ping Pong</h3>
+          <h5>Created by:</h5>
+          <p>Andrew Fisher</p>
+          <h5>GitHub Username/URL:</h5>
+          <a href="https://github.com/andrewfishersb">andrewfishersb</a>
+        </div>
+        <div class="col-sm-8" id="game">
+          <h2>Let's Play!</h2>
+          <h4>Rules:</h4>
+          <p>Ping Pong will count from 1 up to the provided number but when:</p>
+          <ol>
+            <li>Numbers are divisible by 3, Ping is printed instead</li>
+            <li>Numbers are divisible by 5, Pong is printed instead</li>
+            <li>Numbers are divisible by 3 and 5, Ping-Pong is printed instead</li>
+          </ul>
+          <form>
+            
+            <input class="form-control" type="text" id="ping-pong" placeholder="Input a Number You'd Like To Count To">
+            <button type="submit" name="button" class="btn btn-danger">Submit</button>
+          </form>
+          <ul class="output">
 
-        </ul>
+          </ul>
+        </div>
+
       </div>
 
 

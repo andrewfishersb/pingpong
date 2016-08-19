@@ -11,20 +11,13 @@ var pingPong = function(number){
 //Front end
 $(function(){
   $("form").submit(function(event){
-
     event.preventDefault();
     var userInput = parseInt($("input#ping-pong").val());
     var pingPongArray = pingPong(userInput);
-    var finishedArray=[];
     $(".output").text("").append("<li>"+pingPongArray[0]+"</li>");
     for(var i =1;i<pingPongArray.length-1;i++){
       $(".output").append("<li>"+pingPongArray[i]+"</li>");
     }
-    $(".output").append("<li>"+pingPongArray[i]+"</li>")
-
-
+    $(".output").append("<li>"+pingPongArray[i]+"</li>");
   });
 });
-// pingPongArray.forEach(function(blank){
-//   $("ul").append("<li>" + blank + "</li>");
-// });
