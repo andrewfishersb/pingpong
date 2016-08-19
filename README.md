@@ -16,7 +16,7 @@ _1. It can count to the number provided._
 
 _2. It can replace the number 3 with the word Ping._
 * _Input Example: 3_
-* _Output Example: Ping
+* _Output Example: Ping_
 
 _3. It can count up to the given number and place anything divisible by 3 with Ping._
 * _Input Example: 7_
@@ -35,7 +35,7 @@ _6. It can replace 15 with Ping-Pong._
 * _Output Example: Ping-Pong_
 
 _7. It can count up to the given number and place anything divisible by 5 with Pong._
-* _Input Example: 16
+* _Input Example: 16_
 * _Output Example: [1,2,Ping,4,Pong,Ping,7,8,Ping,Pong,11,Ping,13,14,Ping-Pong,16]_
 
 ## Setup/Installation Requirements

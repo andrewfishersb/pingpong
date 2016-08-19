@@ -2,7 +2,8 @@
 var pingPong = function(number){
   var countUpArray =[];
   for(var i =0;i<number;i++){
-  countUpArray[i] = (i+1)%3===0 ? ((i+1)%5===0 ? "Ping-Pong" :"Ping" ): ((i+1)%5===0 ? "Pong" : (i+1));
+  // countUpArray[i] = (i+1)%3===0 ? ((i+1)%5===0 ? "Ping-Pong" :"Ping" ): ((i+1)%5===0 ? "Pong" : (i+1));
+  countUpArray[i] = (i+1)%3===0 ? ((i+1)%5===0 ? "Ping-Pong" :'<img src="img/ping.jpg"/>' ): ((i+1)%5===0 ? '<img src="img/pong.png"/>' : (i+1));
   }
   return countUpArray;
 }
