@@ -5,16 +5,9 @@ body{
 ul{
   list-style: none;
   text-align: center;
-  
   overflow: auto;
-  height: 500px;
+  height: 100%;
   width: 200px;
-}
-
-.output li{
-  background-color: white;
-  font-size: 35px;
-  border-style: solid;
 }
 
 button{
@@ -30,21 +23,24 @@ label{
    margin-top: 5%;
    width:70%;
  }
- img{
+ .output img{
    max-width: 75px;
    margin: 1%;
  }
 
- tr{
-   border: 2px solid black;
-   font-size: 30px;
-   width: 75px;
-   text-align: center;
- }
-
 /*classes and ids*/
+.output li{
+  background-color: white;
+  font-size: 35px;
+  border-style: solid;
+}
+
 .row{
-    height: 100vh;
+    height: 63vh;
+}
+
+#mypic{
+  width: 350px;
 }
 
 #about{
@@ -52,22 +48,23 @@ label{
   height: 100%;
   bottom: 0;
   margin: 0 auto;
+  text-align: center;
+}
+
+#about #author{
+ margin-bottom: 50px;
 }
 
 #game{
  padding-left: 5%;
 }
 
-/*.output{
-  background-color: #00FFFF;
-  width: 400px;
-  height: 400px;
-  overflow: auto;
-
-}*/
-
 .jumbotron {
- background-color: red;
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 200px;
+  color:white;
 }
  /*Media Query */
  /*green portion shrink so it doesnt go all the way down*/
