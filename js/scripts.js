@@ -15,6 +15,7 @@ $(function(){
       event.preventDefault();
     }
   });
+
   $("form").submit(function(event){
       event.preventDefault();
       var userInput = parseInt($("input#ping-pong").val());
@@ -22,7 +23,6 @@ $(function(){
       if(userInput===undefined || userInput===NaN || userInput===null){
         alert("Not a number please enter again");
       }
-      var rows = rowCreation(userInput);
       var pingPongArray = pingPong(userInput);
       var pingPongArray = pingPong(userInput);
       $(".output").text("").append("<li>"+pingPongArray[0]+"</li>");
