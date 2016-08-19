@@ -6,7 +6,7 @@
 
 ## Description
 
-_This program asks for a number, it will then count to that number, but every time a number is divisble by 3 it will print Ping and when divisble by 5 it will print Pong lastly when divisble by 3 and 5 it will print PingPong_
+_This program asks for a number, it will then count to that number, but every time a number is divisible by 3 it will print Ping and when divisible by 5 it will print Pong lastly when divisible by 3 and 5 it will print PingPong_
 
 ##Specifications
 
