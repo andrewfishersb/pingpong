@@ -16,8 +16,15 @@ label{
    width:70%;
  }
  img{
-   width: 75px;
+   max-width: 75px;
    margin: 1%;
+ }
+
+ tr{
+   border: 2px solid black;
+   font-size: 30px;
+   width: 75px;
+   text-align: center;
  }
 
 /*classes and ids*/
