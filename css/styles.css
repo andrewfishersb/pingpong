@@ -2,6 +2,21 @@ body{
   background-color:  #d9d9d9;
 }
 
+ul{
+  list-style: none;
+  text-align: center;
+  
+  overflow: auto;
+  height: 500px;
+  width: 200px;
+}
+
+.output li{
+  background-color: white;
+  font-size: 35px;
+  border-style: solid;
+}
+
 button{
   margin-top: 2%;
 }
@@ -42,6 +57,14 @@ label{
 #game{
  padding-left: 5%;
 }
+
+/*.output{
+  background-color: #00FFFF;
+  width: 400px;
+  height: 400px;
+  overflow: auto;
+
+}*/
 
 .jumbotron {
  background-color: red;
