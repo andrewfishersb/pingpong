@@ -42,7 +42,7 @@ _7. It can count up to the given number and place anything divisible by 5 with P
 
 ```
  Clone from github
- open
+ open index.html file in your prefered browser
 ```
 
 ## Link
