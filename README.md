@@ -8,7 +8,7 @@
 
 _This program asks for a number, it will then count to that number, but every time a number is divisible by 3 it will print Ping and when divisible by 5 it will print Pong lastly when divisible by 3 and 5 it will print PingPong_
 
-##Specifications
+## Specifications
 
 _1. It can count to the number provided._
 * _Input Example: 2_
@@ -40,22 +40,24 @@ _7. It can count up to the given number and place anything divisible by 5 with P
 
 ## Setup/Installation Requirements
 
-* _Requires Bootstrap and jQuery_
-* _Clone to your computer and then edit the apps however you'd like_
-
-## Known Bugs
-
-_No Known Bugs_
+```
+ Clone from github
+ open
+```
 
 ## Link
-[click here](andrewfishersb.github.io/pingpong)
+https://andrewfishersb.github.io/pingpong/
 
 ## Technologies Used
 
-* _HTML/CSS_
-* _Bootstrap_
 * _JavaScript_
 * _jQuery_
+* _HTML/CSS_
+* _Bootstrap_
+
+## Further Exploration
+* prevent an empty form from being submitted.
+* fix styling as it does not look the best on small screens
 
 ### License
 
